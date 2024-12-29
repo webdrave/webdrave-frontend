@@ -24,6 +24,19 @@ export default  {
       boxShadow: {
         custom: '0px 0px 60px -69px #1C3350',
       },
+      fontFamily: {
+        americanCaptain: ['var(--font-ac)'],
+        montserrat: ["Montserrat", "serif"]
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+          'infinite-scroll': {
+              from: { transform: 'translateX(0)' },
+              to: { transform: 'translateX(-100%)' },
+          }
+      },    
     },
   },
   plugins: [],
