@@ -5,7 +5,7 @@ import Button from "../Button"
 const ServiceIntro = () => {
   return (
     <div className="md:min-h-fit lg:px-20 lg:py-20 lg:pb-56 lg:gap-12 md:px-10 md:py-20 md:pb-36 w-full min-h-[100vh] py-6 px-3 pb-16 overflow-hidden relative flex flex-col gap-8 justify-center items-center bg-[#010302b3] border-t-1 border-white">
-      <h1 className="md:text-4xl lg:text-6xl lg:px-72 md:px-32 text-white uppercase font-[americanCaptain] font-black text-[1.7rem] leading-none text-center  ">
+      <h1 className="md:text-4xl lg:text-6xl lg:px-72 md:px-32 text-white uppercase font-americanCaptain font-normal font-black text-[1.7rem] leading-none text-center  ">
         Take a ride with <span className="text-[#7a87ff]">Web Drave</span> for top-notch <span className="text-[#7a87ff]">web development</span> services, <span className="text-[#7a87ff]">personalized</span> just for you.
       </h1>
       <div className="w-full flex flex-col md:flex-row md:px-10 lg:px-56 md:gap-6 lg:gap-8 gap-3 px-1 justify-center items-center  " >

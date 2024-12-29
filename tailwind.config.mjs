@@ -25,8 +25,8 @@ export default  {
         custom: '0px 0px 60px -69px #1C3350',
       },
       fontFamily: {
-        americanCaptain: ['var(--font-ac)'],
-        montserrat: ["Montserrat", "serif"]
+        americanCaptain: ["American Captain","sans-serif"],
+        montserrat: ["Montserrat", "serif"],
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',

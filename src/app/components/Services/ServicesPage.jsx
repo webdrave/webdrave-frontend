@@ -25,11 +25,11 @@ export const ServicesPage = () => {
   return (
     <div className="min-h-screen w-full bg-background p-10 max-md:p-4">
       <div className=" heading flex w-full  items-center justify-between">
-        <h2 className="text-[8rem] max-sm:text-[5rem] max-sm:leading-none leading-[128px] font-american-captain font-normal">
+        <h2 className="text-[7rem] max-sm:text-[5rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
           WE <span className="text-primary">CREATE</span> &<br /> INNOVATE
           <span className="text-primary">.</span>
         </h2>
-        <p className="capitalize text-[25px] font-montserrat leading-[37.5px] text-right max-lg:hidden">
+        <p className="capitalize text-[20px] font-montserrat leading-[37.5px] text-right max-lg:hidden">
           At Web Drave, we offer a comprehensive range
           <br /> of web development services tailored
           <br />
@@ -41,13 +41,13 @@ export const ServicesPage = () => {
       {items.map((item, index) => (
         <ServicesBox
           key={index}
-          width={widths[index % widths.length]} // Dynamic widths
-          direction={directions[index % directions.length]} // Dynamic directions
+          width={widths[index % widths.length]}
+          direction={directions[index % directions.length]} 
           title={item.title}
           description={item.description}
         />
       ))}
-      <div className="absolute transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-[60px] py-2 rounded-xl text-[60px] font-american-captain z-10 tracking-[3px] max-xl:hidden">
+      <div className="absolute transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-[60px] py-2 rounded-xl text-[50px] font-americanCaptain z-10 tracking-[3px] max-xl:hidden">
       <span>SERVICES</span></div>
 
       </div>
