@@ -1,0 +1,57 @@
+import React from "react";
+import ServicesBox from "./ServicesBox";
+
+export const ServicesPage = () => {
+  const items = [
+    {
+      title: "Web Development",
+      description: "Experting the maintenance, building and programming of a website is indeed a great task. webDrave delivers you with services of web development along with convenience.",
+    },
+    {
+      title: "SEO",
+      description: "Marketing is a company’s prime concern. webDrave favours you with the complete optimization of search engine with our impactful approaches.",
+    },
+    {
+      title: "Web hosting",
+      description: "Security, scalability, performance optimization, technical support and so on... all at only a single platform? webDrave allocating web hosting services according to your comfort.",
+    },
+    {
+      title: "Web design",
+      description: "An Exceptional Web Design can transform the way your brand speaks to your audience. So webDrave is here to ease your task and favour you with an exceptional web design.",
+    },
+  ];
+  const widths = ["50%", "40%", "40%", "50%"];
+  const directions = ["tr", "tl", "tr", "tl"];
+  return (
+    <div className="min-h-screen w-full bg-background p-10 max-md:p-4">
+      <div className=" heading flex w-full  items-center justify-between">
+        <h2 className="text-[8rem] max-sm:text-[5rem] max-sm:leading-none leading-[128px] font-american-captain font-normal">
+          WE <span className="text-primary">CREATE</span> &<br /> INNOVATE
+          <span className="text-primary">.</span>
+        </h2>
+        <p className="capitalize text-[25px] font-montserrat leading-[37.5px] text-right max-lg:hidden">
+          At Web Drave, we offer a comprehensive range
+          <br /> of web development services tailored
+          <br />
+          to bring your vision to life.{" "}
+        </p>
+      </div>
+      <hr className=" my-2" />
+      <div className="services-container min-h-screen relative flex flex-wrap gap-4 w-full  justify-center items-center mt-8 max-xl:flex-col">
+      {items.map((item, index) => (
+        <ServicesBox
+          key={index}
+          width={widths[index % widths.length]} // Dynamic widths
+          direction={directions[index % directions.length]} // Dynamic directions
+          title={item.title}
+          description={item.description}
+        />
+      ))}
+      <div className="absolute transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-[60px] py-2 rounded-xl text-[60px] font-american-captain z-10 tracking-[3px] max-xl:hidden">
+      <span>SERVICES</span></div>
+
+      </div>
+      
+      </div>
+  )
+};
