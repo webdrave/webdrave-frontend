@@ -2,20 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Custom Fonts */
+@font-face {
+  font-family: "American Captain";
+  src: url("/fonts/AmericanCaptain.ttf");
+}
+@font-face {
+  font-family: "Silk Serif";
+  src: url("/fonts/SilkSerif.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  /* Base Styles */
+  html {
+    @apply scroll-smooth;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-dark text-light font-secondary;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary;
+  }
+  p,a {
+    @apply font-secondary;
+  }
 }
