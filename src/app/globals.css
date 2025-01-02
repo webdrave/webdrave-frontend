@@ -1,12 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Fonts */
-@font-face {
-  font-family: "American Captain";
-  src: url("/fonts/AmericanCaptain.ttf");
-}
 @font-face {
   font-family: "Silk Serif";
   src: url("/fonts/SilkSerif.ttf");
@@ -31,4 +28,24 @@
   p,a {
     @apply font-secondary;
   }
+}
+=======
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+@font-face {
+  font-family: 'American Captain';
+  src: url('/fonts/AmericanCaptain-MdEY.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
