@@ -21,6 +21,8 @@ export default  {
         foreground: "var(--foreground)",
         primary:"#5b68e4",
         secondary:"#f7f7f7",
+        dark:"#0a0a0a",
+		  light:"#fff",
       },
       boxShadow: {
         custom: '0px 0px 60px -69px #1C3350',

@@ -3,17 +3,18 @@ import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/Sections/HeroSection";
 import ServiceIntro from "./components/Sections/ServiceIntroSection/ServiceIntro";
-import { ServicesPage } from "./components/Services/ServicesPage";
+import { ServicesPage } from "./components/Sections/ServicesSection/ServicesPage";
+import WorkSection from "./components/Sections/OurWorksSection/WorkSection";
 
 export default function Home() {
-  return (
-    <main className="w-full h-full relative">
+ return (
+  <div className="">
     <NavBar />
     <HeroSection />
   
       <ServiceIntro />
     <ServicesPage></ServicesPage>
-
-    </>
-  );
+    <WorkSection/>
+  </div>
+ )
 }

@@ -22,14 +22,14 @@ const Video = () => {
         } rounded-lg overflow-hidden transition-all duration-500 ease-in-out cursor-pointer group origin-bottom-right`}
         onClick={toggleExpand}
       >
-        <video
+        {/* <video muted autoPlay={true}
           ref={videoRef}
           className={`w-full h-full object-cover ${isExpanded ? 'scale-100' : 'scale-100 hover:scale-110'} origin-bottom-right transition-transform duration-300`}
           controls={isExpanded}
           src="https://res.cloudinary.com/dpwj6nisl/video/upload/v1735329081/Showreel-landscape_fkeduh.mp4"
         >
           Your browser does not support the video tag.
-        </video>
+        </video> */}
 
         {/* Custom Poster Overlay - Only show when not playing */}
         {!isExpanded && !videoRef.current?.played.length && (

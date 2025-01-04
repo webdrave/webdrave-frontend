@@ -37,7 +37,7 @@ export const ServicesPage = () => {
         </p>
       </div>
       <hr className=" my-2" />
-      <div className="services-container min-h-screen relative flex flex-wrap gap-4 w-full  justify-center items-center mt-8 max-xl:flex-col">
+      <div className="services-container min-h-screen relative flex flex-wrap gap-4 w-full  justify-center items-center mt-12 max-xl:flex-col">
       {items.map((item, index) => (
         <ServicesBox
           key={index}

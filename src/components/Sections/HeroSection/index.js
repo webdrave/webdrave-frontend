@@ -2,11 +2,11 @@ import Video from "./Video";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen w-full relative px-4 sm:px-6 lg:px-8">
+    <div className="flex justify-center items-center min-h-screen w-full relative px-4 sm:px-6 lg:px-8 bg-background">
       {/* Main Content */}
       <div className="flex flex-col justify-center items-center w-full lg:w-[80%] py-12 lg:py-0">
         {/* Headline */}
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent font-americanCaptain">
           We Create Beautiful <br className="hidden sm:block" /> Things For You
         </h1>
 
