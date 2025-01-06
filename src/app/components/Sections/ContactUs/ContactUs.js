@@ -119,10 +119,10 @@ const ContactUs = () => {
               </h3>
               <p>Follow us on:</p>
               <div className="flex space-x-10 text-gray-300 text-2xl">
-                <a href="#" className="hover:text-white">
+                <a href="https://www.instagram.com/webdrave" className="hover:text-white">
                   <i className="fa fa-instagram"></i>
                 </a>
-                <a href="#" className="hover:text-white">
+                <a href="https://www.linkedin.com/company/webdrave-com/" className="hover:text-white">
                   <i className="fa fa-linkedin"></i>
                 </a>
                 <a href="#" className="hover:text-white">
