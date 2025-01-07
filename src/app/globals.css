@@ -65,3 +65,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: ''; /* Removes default Swiper arrow */
+}
