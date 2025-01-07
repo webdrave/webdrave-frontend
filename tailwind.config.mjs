@@ -23,6 +23,9 @@ export default  {
         secondary:"#f7f7f7",
         dark:"#0a0a0a",
 		  light:"#fff",
+      lightBlue: '#2b6fb6',
+        darkBlue: '#0d3557',
+        blackish: '#000000',
       },
       boxShadow: {
         custom: '0px 0px 60px -69px #1C3350',

@@ -1,11 +1,12 @@
 import React from "react";
 import Logo from "./Logo";
+import Link from "next/link";
 
 const NavBar = () => {
   const navigations = [
     { name: "Home", to: "" },
     { name: "Portfolio", to: "" },
-    { name: "Our Team", to: "" },
+    { name: "Our Team", to: "team" },
     { name: "Contact Us", to: "" },
   ];
   return (
@@ -14,7 +15,7 @@ const NavBar = () => {
       <ul className="flex justify-center items-center space-x-16 mx-12">
         {navigations.map(({ name, to, idx }) => {
           return (
-            <a
+            <Link
               className={`text-xs text-[#dbdbdb] ${
                 name === "Contact Us" ? "text-primary" : ""
               }`}
@@ -22,7 +23,7 @@ const NavBar = () => {
               key={idx}
             >
               {name}
-            </a>
+            </Link>
           );
         })}
       </ul>

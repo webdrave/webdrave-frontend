@@ -1,5 +1,5 @@
 import React from 'react'
-import SwiperComponent from '../../SwiperComponent';
+import {WorkSlider} from '../../SwiperComponent';
 const WorkSection = () => {
   return (
     <div className='w-full p-10 max-md:p-4 bg-background '>
@@ -16,8 +16,8 @@ const WorkSection = () => {
         </p>
       </div> 
       <hr className=" my-2"/>
-      <div className='w-full h-[45vh] mt-12'>
-      <SwiperComponent/>
+      <div className='w-full h-[50vh] mt-12'>
+      <WorkSlider/>
 
       </div>
     </div>
