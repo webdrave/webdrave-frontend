@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import localFont from 'next/font/local'
+import 'font-awesome/css/font-awesome.min.css';
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
