@@ -1,4 +1,43 @@
+"use client";
+import { useState } from "react";
+
+const { default: axios } = require("axios");
+
 const ContactUs = () => {
+  const [formData, setFormData] = useState({
+    fullname: "",
+    email: "",
+    mobile: "",
+    reason: "",
+    message: "",
+  });
+
+  const handleChange = (event) => {
+    setFormData({
+      ...formData,
+      [event.target.name]: event.target.value,
+    });
+    console.log(formData);
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    if (formData.fullname && formData.email && formData.mobile && formData.reason && formData.message) {
+      const res = await axios.post("https://webdrave-backend.onrender.com/api/v1/contact", formData);
+      console.log(res);
+      alert("Form submitted successfully!");
+      setFormData({
+        fullname: "",
+        email: "",
+        mobile: "",
+        reason: "",
+        message: "",
+      });
+    } else {
+      alert("Please fill in all the fields");
+    }
+  };
+  
   return (
     <div className="w-full bg-background py-8 px-4 sm:px-8 md:px-16 lg:px-24 relative">
       {/* Title Section */}
@@ -24,13 +63,15 @@ const ContactUs = () => {
             US
             <span className="text-[#5C67E5]">.</span>
           </h2>
-          <form className="space-y-6">
+          <form onChange={handleChange} className="space-y-6" onSubmit={handleSubmit}>
             <div className="relative">
               <input
                 type="text"
                 className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition placeholder-transparent pb-2"
                 placeholder="Full Name"
                 required
+                name="fullname"
+                value={formData.fullname}
               />
               <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
                 Full Name (Required)
@@ -42,6 +83,8 @@ const ContactUs = () => {
                 className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition placeholder-transparent pb-2"
                 placeholder="Email Address"
                 required
+                name="email"
+                value={formData.email}
               />
               <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
                 Email Address (Required)
@@ -52,13 +95,20 @@ const ContactUs = () => {
                 type="tel"
                 className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition placeholder-transparent pb-2"
                 placeholder="Phone Number"
+                required
+                name="mobile"
+                value={formData.mobile}
               />
               <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
-                Phone Number (Optional)
+                Phone Number
               </label>
             </div>
             <div className="relative">
-              <select className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition py-2 pr-8 pl-3 appearance-none">
+              <select 
+                name="reason" 
+                className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition py-2 pr-8 pl-3 appearance-none"
+                value={formData.reason}
+              >
                 <option value=""></option>
                 <option value="#">General Inquiry</option>
                 <option value="#">Support</option>
@@ -77,8 +127,10 @@ const ContactUs = () => {
             <div className="relative">
               <textarea
                 rows="2"
+                name="message"
                 className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition placeholder-transparent pb-2"
                 placeholder="Write your message here"
+                value={formData.message}
               ></textarea>
               <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
                 Message
