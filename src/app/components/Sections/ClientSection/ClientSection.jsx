@@ -15,7 +15,7 @@ const ClientSection = () => {
             </p>
           </div> 
           <hr className=" my-2"/>
-          <div className='w-full h-[50vh] mt-12'>
+          <div className='w-full h-[50vh] mt-12 max-lg:h-[35vh]'>
         <ClientSlider/>
           </div>
         </div>
