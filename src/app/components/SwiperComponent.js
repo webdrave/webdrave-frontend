@@ -12,57 +12,44 @@ import clientsResponse from "../data/clientsResponse";
 import { MoveLeft, MoveRight } from 'lucide-react';
 
 export function WorkSlider() {
+  const [works, setworks] = useState([
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_1_drszbs.jpg",
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_2_aesw9m.jpg",
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_3_bkn8nq.jpg",
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_4_qjzoje.jpg"
+
+  ])
   return (
-    <>
-      <Swiper
-        slidesPerView={2}
-        spaceBetween={30}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        // mousewheel={true}
-        modules={[FreeMode, Pagination, Mousewheel]}
-        className="mySwiper w-full h-full p-8"
-      >
-        <SwiperSlide className="flex justify-center items-center bg-yellow-100 rounded-lg">
-          <Image
-            src="https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_1_drszbs.jpg"
-            alt=""
-            className="w-full h-full object-cover rounded-lg"
-            width={500}
-            height={500}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_2_aesw9m.jpg"
-            alt=""
-            className="w-full h-full object-cover rounded-lg"
-            width={500}
-            height={500}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_3_bkn8nq.jpg"
-            alt=""
-            className="w-full h-full object-cover rounded-lg"
-            width={500}
-            height={500}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_4_qjzoje.jpg"
-            alt=""
-            className="w-full h-full object-cover rounded-lg"
-            width={500}
-            height={500}
-          />
-        </SwiperSlide>
-      </Swiper>
-    </>
+    <Swiper
+      slidesPerView={1} // Default value for larger screens
+      spaceBetween={10}
+      freeMode={true}
+      pagination={{
+        clickable: true,
+      }}
+      modules={[FreeMode, Pagination, Mousewheel]}
+      className="mySwiper w-full h-full p-8"
+      breakpoints={{
+        // When the screen size is at least 'md' (768px)
+        // For smaller screens, the default is 2 slides per view
+        1280: {
+          slidesPerView: 2,
+          spaceBetween:30,
+        },
+      }}
+    >
+      {works.map((works,i)=>(
+        <SwiperSlide className="flex justify-center items-center rounded-lg" key={i}>
+        <Image
+          src={works}
+          alt=""
+          className="w-full h-full object-cover rounded-lg"
+          width={100}
+          height={100}
+        />
+      </SwiperSlide>
+      ))}
+    </Swiper>
   );
 }
 
@@ -86,9 +73,20 @@ export function ClientSlider() {
             swiper.params.navigation.nextEl = nextRef.current;
           }}
           modules={[Navigation]}
-          slidesPerView={3}
-          spaceBetween={40}
+          slidesPerView={1}
+          spaceBetween={10}
           className="mySwiper h-full w-full"
+          breakpoints={{
+            // When the screen size is at least 'md' (768px)
+            // For smaller screens, the default is 2 slides per view
+            1280: {
+              slidesPerView: 3,
+              spaceBetween:30,
+            },
+            720:{
+              slidesPerView:2,
+            }
+          }}
         >
           {clientsResponse.map((client) => (
             <SwiperSlide

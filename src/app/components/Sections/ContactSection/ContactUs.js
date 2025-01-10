@@ -1,8 +1,9 @@
+import { ChevronDown } from 'lucide-react';
 const ContactUs = () => {
     return (
-      <div className="w-full bg-background py-8 px-4 sm:px-8 md:px-16 lg:px-24 relative">
+      <div className="w-full bg-background py-8 px-4 sm:px-8 md:px-16 lg:px-24 relative mt-48">
         {/* Title Section */}
-        <div className="flex justify-center items-center mb-32">
+        <div className="flex justify-center items-center mb-32 ">
           <div className="relative text-4xl sm:text-6xl md:text-7xl lg:text-9xl text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent font-americanCaptain">
             {/* Circle Background for Title */}
             <div className="absolute inset-0 flex items-center justify-center">
@@ -16,7 +17,7 @@ const ContactUs = () => {
         </div>
   
         {/* Form Section */}
-        <div className="w-full max-w-7xl mx-auto bg-[#0F172A] rounded-2xl shadow-md p-8 md:p-12 lg:p-16 flex flex-col md:flex-row justify-between items-start gap-8 text-white border border-[#1f2937]">
+        <div className="w-full max-w-7xl mx-auto bg-gradient-to-tr from-[#1f2e35] to-[#0c101a] rounded-2xl shadow-md p-8 md:p-12 lg:p-16 flex flex-col md:flex-row justify-between items-start gap-8 text-white border border-[#1f2937]">
           {/* Left Section */}
           <div className="w-full md:w-1/2 pr-6">
             <h2 className="text-[4rem] max-sm:text-[3rem] max-sm:leading-none leading-[96px] font-americanCaptain font-normal mb-8">
@@ -28,65 +29,62 @@ const ContactUs = () => {
               <div className="relative">
                 <input
                   type="text"
-                  className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition placeholder-transparent pb-2"
-                  placeholder="Full Name"
+                  className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition pb-2 placeholder-[#AAAAAA] placeholder:font-thin text-md"
+                  placeholder="Full Name (Required)"
                   required
                 />
-                <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
-                  Full Name (Required)
-                </label>
+                
               </div>
               <div className="relative">
                 <input
                   type="email"
-                  className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition placeholder-transparent pb-2"
-                  placeholder="Email Address"
+                  className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition pb-2 placeholder-[#AAAAAA] placeholder:font-thin text-md"
+                  placeholder="Email Address (Required)"
                   required
                 />
-                <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
-                  Email Address (Required)
-                </label>
+                
               </div>
               <div className="relative">
                 <input
                   type="tel"
-                  className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition placeholder-transparent pb-2"
-                  placeholder="Phone Number"
+                  className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition  pb-2 placeholder-[#AAAAAA] placeholder:font-thin text-md"
+                  placeholder="Phone Number (Optional)"
                 />
-                <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
-                  Phone Number (Optional)
-                </label>
+                
               </div>
               <div className="relative">
-                <select className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition py-2 pr-8 pl-3 appearance-none">
-                  <option value=""></option>
-                  <option value="#">General Inquiry</option>
-                  <option value="#">Support</option>
-                  <option value="#">Services</option>
-                  <option value="#">Feedback</option>
-                </select>
-                {/* Custom Dropdown Arrow */}
+                
+              <select
+    className="w-full bg-transparent border-b-2 border-gray-600 text-[#AAAAAA] focus:outline-none focus:border-[#5C67E5] transition py-2 pr-8 appearance-none"
+    defaultValue=""
+  >
+    {/* Placeholder */}
+    <option value="" disabled hidden>
+      Select an option
+    </option>
+    <option value="general">General Inquiry</option>
+    <option value="support">Support</option>
+    <option value="services">Services</option>
+    <option value="feedback">Feedback</option>
+  </select>
                 <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
-                  <i className="fa fa-chevron-down"></i>
+                  <ChevronDown />
                 </span>
-                <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
-                  Reason for Contact
-                </label>
+                {/* Custom Dropdown Arrow */}
+                
               </div>
   
               <div className="relative">
                 <textarea
                   rows="2"
-                  className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition placeholder-transparent pb-2"
+                  className="w-full bg-transparent border-b-2 border-gray-600 text-gray-300 focus:outline-none focus:border-[#5C67E5] transition  pb-2 placeholder-[#AAAAAA] placeholder:font-thin text-md"
                   placeholder="Write your message here"
                 ></textarea>
-                <label className="absolute left-0 top-0 text-gray-400 text-sm pointer-events-none transition-all transform scale-100">
-                  Message
-                </label>
+                
               </div>
               <button
                 type="submit"
-                className="w-full md:w-auto px-8 py-3 bg-[#5C67E5] text-white font-medium rounded-lg hover:bg-[#4f5ed7] transition"
+                className="w-full md:w-auto px-12 py-3 bg-[#5C67E5] text-white font-medium rounded-lg hover:bg-[#4f5ed7] transition"
               >
                 Send
               </button>
@@ -142,7 +140,7 @@ const ContactUs = () => {
         </div>
   
         {/* Watermark (Between Content and Footer) */}
-        <div className="mt-16 mb-8 text-gray-400 text-9xl font-extrabold opacity-30 z-10 text-center">
+        <div className="mt-16 mb-8 text-gray-400 text-9xl font-extrabold opacity-30 z-10 text-center max-[950px]:text-6xl max-sm:text-5xl">
           WEBDRAVE
         </div>
   
@@ -150,10 +148,10 @@ const ContactUs = () => {
         <div className="border-t border-[#334155] my-8"></div>
   
         {/* Footer (Below Line Divider) */}
-        <div className="relative z-20  mt-12 text-gray-500 text-sm">
-          <div className="flex justify-between items-center px-8">
+        <div className="relative z-20  mt-12 text-gray-500 text-sm max-sm:text-[10px]">
+          <div className="flex justify-between items-center px-8 max-sm:px-0">
             <p className="w-1/3 text-left">Copyright ©2024</p>
-            <p className="w-1/3 text-center">
+            <p className="w-1/3 text-center flex max-sm:w-1/2">
               Agency | LinkedIn | Instagram | Facebook
             </p>
             <p className="w-1/3 text-right">

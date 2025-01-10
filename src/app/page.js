@@ -10,7 +10,7 @@ import ContactUs from "./components/Sections/ContactUs/ContactUs.js";
 
 export default function Home() {
  return (
-  <div className="">
+  <div className="overflow-x-hidden">
     <NavBar />
     <HeroSection />
   
