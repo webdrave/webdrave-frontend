@@ -6,7 +6,7 @@ import ClientSection from "./components/Sections/ClientSection/ClientSection";
 import ServiceIntro from "./components/Sections/ServiceIntroSection/ServiceIntro.js";
 import { ServicesPage } from "./components/Sections/ServicesSection/ServicesPage.jsx";
 import WorkSection from "./components/Sections/OurWorksSection/WorkSection.jsx";
-import ContactUs from "./components/Sections/ContactUs/ContactUs.js";
+import ContactUs from "./components/Sections/ContactSection/ContactUs.js";
 
 export default function Home() {
  return (
