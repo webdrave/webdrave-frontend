@@ -1,8 +1,12 @@
+"use client"
 import Video from "./Video";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen w-full relative px-4 sm:px-6 lg:px-8">
+    <motion.div initial={{ opacity: 0, y: 30 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1 }} className="flex justify-center items-center min-h-screen w-full relative px-4 sm:px-6 lg:px-8">
       {/* Main Content */}
       <div className="flex flex-col justify-center items-center w-[90%] lg:w-[80%] py-12 lg:py-0">
         {/* Headline */}
@@ -107,7 +111,7 @@ const HeroSection = () => {
           </svg>
         </span>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

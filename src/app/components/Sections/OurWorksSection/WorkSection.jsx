@@ -16,7 +16,7 @@ const WorkSection = () => {
         </p>
       </div> 
       <hr className=" my-2"/>
-      <div className='w-full h-[50vh] mt-12'>
+      <div className='w-full h-[50vh] mt-12 max-md:h-[25vh]'>
       <WorkSlider/>
 
       </div>
