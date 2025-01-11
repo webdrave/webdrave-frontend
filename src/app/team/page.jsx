@@ -4,6 +4,7 @@ import csvjson from '../data/csvjson.json';
 import axios from 'axios';
 import Image from 'next/image';
 import { Playwrite_CA } from 'next/font/google';
+import NavBar from '@/components/NavBar';
 export default function TestimonialSection() {
   const [teamMembers, setteamMembers] = useState([])
 
@@ -21,6 +22,8 @@ export default function TestimonialSection() {
     fetchTeamMembers();
   }, []);
     return (
+      <>
+     <NavBar />
         <div className="relative min-h-screen bg-gradient-to-b from-lightBlue from-[0%] via-blue-900 via-[5%] to-blackish to-[90%] flex justify-center items-center flex-col">
         
         <div className="intro w-full h-fit p-4 mt-[8%]">
@@ -53,6 +56,7 @@ export default function TestimonialSection() {
 </div>
 
   </div>
+  </>
     );
   }
   

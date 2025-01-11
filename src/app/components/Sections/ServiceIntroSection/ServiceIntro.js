@@ -5,16 +5,16 @@ import Button from "./Button"
 const ServiceIntro = () => {
   return (
     <div className="md:min-h-fit lg:px-20 lg:py-20 lg:pb-56 lg:gap-12 md:px-10 md:py-20 md:pb-36 w-full min-h-[100vh] py-6 px-3 pb-16 overflow-hidden relative flex flex-col gap-8 justify-center items-center bg-background border-t-1 border-white">
-      <h1 className="md:text-4xl lg:text-6xl lg:px-72 md:px-32 text-white uppercase font-americanCaptain font-normal font-black text-[1.7rem] leading-none text-center  ">
-        Take a ride with <span className="text-[#7a87ff]">Web Drave</span> for top-notch <span className="text-[#7a87ff]">web development</span> services, <span className="text-[#7a87ff]">personalized</span> just for you.
+      <h1 className="md:text-4xl lg:text-5xl lg:px-60 md:px-32 text-white uppercase font-americanCaptain font-black text-[7vw] tracking-wide leading-none text-center  ">
+        Ride with <span className="text-[#7a87ff]">Web Drave</span> for top-<br/>quality <span className="text-[#7a87ff]">web development</span> services, <br/><span className="text-[#7a87ff]">tailored</span> especially for you.
       </h1>
       <div className="w-full flex flex-col md:flex-row md:px-10 lg:px-56 md:gap-6 lg:gap-8 gap-3 px-1 justify-center items-center  " >
-        <div className="h-60 w-full py-6 px-2 md:w-full md:h-64 lg:w-full lg:h-80 lg:px-6 lg:py-8 overflow-hidden flex flex-col bg-gradient-to-br from-[#181D32] to-[#101423]  justify-between items-end shadow-[0px_0px_30px_0px_#1C3350] rounded-[15px] border border-[#B0B0B0]">
-            <h1 className="text-white text-center font-montserrat font-[500] leading-5 lg:leading-7 md:leading-6 lg:text-2xl text-lg ">
-                Turning your vision into reality with <span className="text-[#7a87ff]">Web Drave&apos;s</span> expert services.
+        <div className="h-64 w-full py-6 px-2 md:w-full md:h-64 lg:w-full lg:h-80 lg:px-6 lg:py-8 overflow-hidden flex flex-col bg-gradient-to-br from-[#181D32] to-[#101423]  justify-between items-center shadow-[0px_0px_30px_0px_#1C3350] rounded-[15px] border border-[#B0B0B0]">
+            <h1 className="text-white text-center font-montserrat font-[500] leading-5 lg:leading-7 md:leading-5 lg:text-xl lg:px-10 text-md ">
+                Make your vision <br/>come to life through the professional <br/> services of <span className="text-[#7a87ff]">Web Drave&apos;s.</span>
             </h1>
-            <p className="text-[#CECECE] md:px-4 font-montserrat lg:px-10 lg:text-xs font-[400] text-center text-xs">
-                Web Drave offers Custom Web Development, UI/UX Design, SEO, Web Hosting and Website Maintenance
+            <p className="text-[#CECECE] px-2 md:px-4 font-montserrat lg:px-8 lg:text-xs font-[400] text-center text-xs">
+                Custom Web Development, UI/UX Design, SEO, Web Hosting, and Website Maintenance are what Web Drave offers.
             </p>
             <div className="flex flex-wrap gap-1.5 justify-center ">
                 <Button data={"Web Development"}></Button>
