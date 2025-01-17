@@ -1,8 +1,8 @@
 import React from 'react'
-import SwiperComponent from '../../SwiperComponent';
+import {WorkSlider} from '../../SwiperComponent';
 const WorkSection = () => {
   return (
-    <div className='w-full p-10 max-md:p-4 bg-background '>
+    <div className='w-full p-10 max-md:p-4 bg-background ' id='portfolio'>
 <div className=" heading flex w-full  items-center justify-between">
         <h2 className="text-[7rem] max-sm:text-[5rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
           OUR <span className="text-primary">BEST</span> &<br /> WORKS
@@ -16,8 +16,8 @@ const WorkSection = () => {
         </p>
       </div> 
       <hr className=" my-2"/>
-      <div className='w-full h-[45vh] mt-12'>
-      <SwiperComponent/>
+      <div className='w-full h-[50vh] mt-12 max-md:h-[25vh]'>
+      <WorkSlider/>
 
       </div>
     </div>

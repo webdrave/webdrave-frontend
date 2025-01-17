@@ -1,9 +1,4 @@
-import React from "react";
-
-const Logo = ({ className }) => {
-  return (
-    <div className={className}>
-      <svg
+<svg
         width="108"
         height="31"
         viewBox="0 0 108 31"
@@ -20,8 +15,3 @@ const Logo = ({ className }) => {
           fill="white"
         />
       </svg>
-    </div>
-  );
-};
-
-export default Logo;

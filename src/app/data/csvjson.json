@@ -1,0 +1,202 @@
+
+
+[
+  {
+    "id": "677d9e6c8e6b152b8246f8a2",
+    "name": "Vivek Jaiswal",
+    "role": "Ui/Ux designer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736284836/Team%20Members/849037bb-fa90-4ac6-959e-7cea0c3a8997_-_Vivek_Jaiswal_wjmkxs.jpg",
+    "bio": "At WebDrave, I serve as a UI/UX Designer, where I bridge the gap between design and development by combining creativity with technical expertise. My role involves crafting intuitive user interfaces and seamless user experiences, leveraging my skills in both coding and designing to create visually appealing and highly functional digital products that’s all about me!",
+    "linkedin": "https://www.linkedin.com/in/vivek-jaiswal-821876313/",
+    "github": "https://github.com/vivek28Jaiswal"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8a3",
+    "name": "Samit Bhadiyadra",
+    "role": "Front-end Developer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736284880/Team%20Members/IMG-20241109-WA0238_-_Samit_Bhadiyadra_sm7g4l.png",
+    "bio": "Creative coder turning designs into delightful, responsive interfaces 💻✨. Skilled in HTML, CSS, JavaScript, and React, I craft seamless user experiences with a touch of flair. Let’s make the web prettier, one pixel at a time! 🚀",
+    "linkedin": "https://www.linkedin.com/in/samitbhadiyadra",
+    "github": "https://github.com/smitbhadiyadra"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8a4",
+    "name": "Aditya Bansal",
+    "role": "Backend Lead",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736284932/Team%20Members/WhatsApp_Image_2024-12-29_at_14.21.11_40dc754f_-_Aditya_Bansal_kmtwxj.jpg",
+    "bio": "As a backend Lead my primary focus on guide backend developer to server best and stable backend service to the client's project",
+    "linkedin": "https://www.linkedin.com/in/aditya-bansal7/",
+    "github": "https://github.com/aditya-bansal-7"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8a5",
+    "name": "Aniket Pal",
+    "role": "UI UX DESIGNER",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736284981/Team%20Members/IMG_20230824_193409_-_Aniket_Pal_qbzoyf.jpg",
+    "bio": "I'm an UI UX designer of this team, & my role is to innovate catchy web designs.",
+    "linkedin": "https://www.linkedin.com/in/aniket-pal-349437289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "github": "https://github.com/ani141103"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8a6",
+    "name": "Khushwant Singh",
+    "role": "Tech head",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285026/Team%20Members/IMG_1448_-_Khushwant_Singh_o5ehys.jpg",
+    "bio": "As the Tech Head at WebDrave, I am responsible for overseeing the workflow within tech teams, ensuring efficient communication, and managing project timelines and deliverables. My role involves aligning technical strategies with organizational goals, fostering collaboration, and driving innovation to achieve seamless execution of projects.",
+    "linkedin": "https://www.linkedin.com/in/khushwant-singh-68249a335",
+    "github": "https://github.com/Khushwant-Singh1"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8a7",
+    "name": "Abhishek Gupta",
+    "role": "Backend Engineer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285087/Team%20Members/20241229_143613_-_Abhishek_Gupta_zj5a0p.jpg",
+    "bio": "Backend Engineer at WebDrave, running on chai, code, and last-minute deadlines. Keeping servers alive, just like my semester grades—barely but surely!",
+    "linkedin": "www.linkedin.com/in/Abhishek14104",
+    "github": "https://github.com/Abhishek14104"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8a8",
+    "name": "Shourya Saxena",
+    "role": "Frontend Developer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285191/Team%20Members/Avatar_-_Shourya_Saxena_iqjmg9.png",
+    "bio": "I am a front-end developer at Webdrave, skilled in crafting responsive and user-friendly web interfaces. Specializing in modern frameworks and tools like MERN Stack and NextJS, also ensures seamless cross-browser compatibility and designs intuitive user experiences. My responsibilities include implementing dynamic interfaces, optimizing performance, and delivering visually appealing web applications.",
+    "linkedin": "https://www.linkedin.com/in/saxena-shourya/",
+    "github": "https://github.com/SaxenaShourya"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8a9",
+    "name": "Puja kumari",
+    "role": "SEO SPECIALISTS",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285226/Team%20Members/IMG_20221227_133211_-_Manisha_Keshri_jhxnez.jpg",
+    "bio": "As an SEO Specialist, I focus on optimizing our website and content to rank higher on search engines. I research keywords, analyze performance, and implement strategies to drive organic traffic. My goal is to ensure our content reaches the right audience and enhances our online visibility.",
+    "linkedin": "NA",
+    "github": "NA"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8aa",
+    "name": "Yash Faujdar",
+    "role": "Social Media Content Strategist",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285258/Team%20Members/IMG_20240701_175239_1_-_Yash_Faujdar_foltnu.jpg",
+    "bio": "As a Content Strategist, I plan and create content that connects with our audience. I build monthly content calendars, research trends, and work with the design and video teams to bring fresh ideas to life. My focus is on keeping our brand's voice consistent while engaging our audience across platforms.",
+    "linkedin": "https://www.linkedin.com/in/yash-faujdar-12b6102a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "github": "https://github.com/yashfaujdar"
+  },
+  {
+    "id": "677d9e6d8e6b152b8246f8ab",
+    "name": "Anushka Porwal",
+    "role": "Content Writer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285293/Team%20Members/20241101_000313_-_om_porwal_stlfdj.jpg",
+    "bio": "I work as a content writer for WEBDRAVE . My professional skills include blog writing , article writing and descriptive writing. I am capable of inscribing impactful and impressive content .",
+    "linkedin": "NA",
+    "github": "NA"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8ac",
+    "name": "Dev Dheer",
+    "role": "UI/UX Designer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285322/Team%20Members/Dev_2_-_Dev_Dheer_w8qkxw.jpg",
+    "bio": "As a UI/UX Designer at WebDrave, I create intuitive and visually engaging designs to enhance user experiences. I create aesthetic and user-friendly designs that meet our clients' needs and enhance their brand's online presence.",
+    "linkedin": "www.linkedin.com/in/dev-dheer",
+    "github": "https://github.com/DevDheer"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8ad",
+    "name": "Ankijit Roy",
+    "role": "Backend developer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285353/Team%20Members/pofile_-_Ankijit_Roy_b6donf.jpg",
+    "bio": "As a Backend Developer at WebDrave, I specialize in building robust server-side applications using Node.js and Express. My responsibilities include designing scalable APIs, managing databases, and ensuring seamless integration with front-end systems. I focus on delivering efficient, maintainable solutions tailored to meet business requirements.",
+    "linkedin": "https://www.linkedin.com/in/ankijit-roy-642409263/",
+    "github": "https://github.com/Ankijit2"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8ae",
+    "name": "Rishit Srivastava",
+    "role": "Social Media Management",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285387/Team%20Members/1000099442_-_Rishit_Srivastava_ea6xpt.jpg",
+    "bio": "-",
+    "linkedin": "-",
+    "github": "-"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8af",
+    "name": "Dipak Chauhan",
+    "role": "UI/UX Team",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285451/Team%20Members/PXL_20240428_103330447_3_-_Dipak_Chauhan_qbgbsk.jpg",
+    "bio": "UI/UX designer and web developer with a keen eye for creating intuitive and visually appealing digital experiences. Skilled in designing user-centric interfaces and building responsive, efficient websites to bring concepts to life. Dedicated to enhancing user satisfaction through thoughtful design and seamless functionality.",
+    "linkedin": "https://www.linkedin.com/in/dipak-chauhan00",
+    "github": "https://github.com/Dipak-Chauhan"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8b0",
+    "name": "Rishu bisht",
+    "role": "Client Acquisition executive",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285482/Team%20Members/16079_-_Rishu_Bisht_pb6nqg.jpg",
+    "bio": "As a Client Acquisition Executive, I focus on finding new clients through online channels like cold emailing and freelance platforms. I work to build strong relationships, identify opportunities, and drive growth for the agency by connecting with potential clients and offering solutions that meet their needs. My role is all about expanding our reach and helping the business grow through strategic outreach.",
+    "linkedin": "NA",
+    "github": "NA"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8b1",
+    "name": "Sachin kargeti",
+    "role": "Ui Ux Desinger",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285509/Team%20Members/IMG_20220212_054937_678_-_Sachin_kargeti_fj5dib.png",
+    "bio": "UI/UX Designer at WebDrave, creating user-friendly and visually appealing digital experiences.",
+    "linkedin": "https://www.linkedin.com/in/sachin-kargeti-69aaa032a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "github": "NA"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8b2",
+    "name": "Ganesh Kumar Mahtha",
+    "role": "UI/UX LEAD",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285538/Team%20Members/Instagram_post_-_10_-_Ganesh_kumar_xoxmay.png",
+    "bio": "As the UI/UX Lead at WebDrave, I specialize in designing intuitive user interfaces and seamless experiences, ensuring our digital products resonate with users and stand out in the industry.",
+    "linkedin": "www.linkedin.com/in/ganesh-mahtha-0000572a4",
+    "github": "N/A"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8b3",
+    "name": "Prerna Chetwani",
+    "role": "PR and Marketing",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285565/Team%20Members/IMG_1151_-_Prerna_Chetwani_qqk6w9.jpg",
+    "bio": "Focused on crafting brand visibility and building strong connections.",
+    "linkedin": "https://www.linkedin.com/in/prerna-chetwani-04ch10",
+    "github": "https://github.com/prernachetwani"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8b4",
+    "name": "Rushikesh Ashok Chandavale",
+    "role": "Frontend developer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285596/Team%20Members/IMG_20241108_204954_-_Rushi_Chandavale_eoc7wx.jpg",
+    "bio": "I am a Frontend Developer specializing in creating responsive and user-friendly web interfaces. I focus on delivering seamless user experiences and collaborating effectively to build high-quality applications.",
+    "linkedin": "https://www.linkedin.com/in/rushikesh-chandavale",
+    "github": "https://github.com/rushichandavale"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8b5",
+    "name": "Abhinav Jain",
+    "role": "Backend Developer",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285628/Team%20Members/IMG_20241230_232111_-_Janmejay_v33z70.jpg",
+    "bio": "A dedicated backend developer with a strong foundation in Computer Science. Experienced in building efficient and scalable web applications, with a focus on user-friendly solutions. Passionate about solving problems and collaborating on innovative projects to create impactful platforms.",
+    "linkedin": "linkedin.com/in/abnjain",
+    "github": "github.com/abnjain"
+  },
+  {
+    "id": "677d9e6e8e6b152b8246f8b6",
+    "name": "Bigyan acharya",
+    "role": "Frontend lead",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285667/Team%20Members/IMG_20241210_210837_445_-_Bigyan_Acharya_ratfvt.jpg",
+    "bio": "..will update later in the website",
+    "linkedin": "https://www.linkedin.com/in/bigyan-acharya",
+    "github": "https://github.com/bigyan224"
+  },
+  {
+    "id": "677d9e6f8e6b152b8246f8b7",
+    "name": "Krish Koli",
+    "role": "Head of client relations",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285732/Team%20Members/IMG_20250101_113852_-_tanishq_koli_xuvnul.jpg",
+    "bio": "As the Head of Client Relations, I manage and build strong, lasting relationships with our offline clients. I ensure their needs are met, handle meetings, and provide personalized service to make sure they have a seamless experience with our agency. My role is all about understanding client goals and making sure we deliver the best possible service.",
+    "linkedin": "https://www.linkedin.com/in/krish-koli-a7a39b277",
+    "github": "Na"
+  }
+]
