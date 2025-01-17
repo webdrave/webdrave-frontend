@@ -4,9 +4,9 @@ import Link from "next/link";
 const NavBar = () => {
   const navigations = [
     { name: "Home", to: "/" },
-    { name: "Portfolio", to: "/" },
+    { name: "Portfolio", to: "#portfolio" },
     { name: "Our Team", to: "team" },
-    { name: "Contact Us", to: "" },
+    { name: "Contact Us", to: "#contact" },
   ];
   
   return (
@@ -17,7 +17,7 @@ const NavBar = () => {
       return (
         <Link
           className={`text-xs max-sm:text-[10px] text-[#dbdbdb] ${
-            name === "Contact Us" ? "text-primary" : ""
+            name === "Home" ? "text-primary" : ""
           }`}
           href={to}
           key={idx}

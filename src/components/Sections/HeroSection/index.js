@@ -8,9 +8,9 @@ const HeroSection = () => {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 1 }} className="flex justify-center items-center min-h-screen w-full relative px-4 sm:px-6 lg:px-8">
       {/* Main Content */}
-      <div className="flex flex-col justify-center items-center w-[90%] lg:w-[80%] py-12 lg:py-0">
+      <div className="flex flex-col justify-center items-center w-[90%] lg:w-[80%] py-12 lg:py-0 max-sm:py-4">
         {/* Headline */}
-        <h1 className="text-5xl sm:text-7xl md:text-7xl lg:text-[8rem] text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent font-americanCaptain">
+        <h1 className="text-6xl sm:text-7xl md:text-[8rem]  lg:text-[8rem] text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent font-americanCaptain">
           We Create Beautiful <br className="" /> Things For You
         </h1>
 

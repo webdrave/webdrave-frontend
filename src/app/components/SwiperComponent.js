@@ -16,7 +16,7 @@ export function WorkSlider() {
     "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_1_drszbs.jpg",
     "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_2_aesw9m.jpg",
     "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_3_bkn8nq.jpg",
-    "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_4_qjzoje.jpg"
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/q_100/v1737117982/Untitled_4_qjzoje.png"
 
   ])
   return (
@@ -38,120 +38,21 @@ export function WorkSlider() {
         },
       }}
     >
-      {works.map((works,i)=>(
-        <SwiperSlide className="flex justify-center items-center rounded-lg" key={i}>
-        <Image
-          src={works}
-          alt=""
-          className="w-full h-full object-cover rounded-lg
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          "
-          width={100}
-          height={100}
-        />
-      </SwiperSlide>
-      ))}
+      {works.map((work, i) => (
+  <SwiperSlide className="flex justify-center items-center rounded-lg" key={i}>
+    <div className="relative w-full h-96 max-sm:h-full">
+      <Image
+        src={work}
+        alt={`Work ${i}`}
+        layout="fill" // Fills the parent container
+        objectFit="cover" // Maintains the aspect ratio
+        className="rounded-lg"
+        quality={100} // Maximum quality
+      />
+    </div>
+  </SwiperSlide>
+))}
+
     </Swiper>
   );
 }

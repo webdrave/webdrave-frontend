@@ -67,7 +67,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="w-full bg-background py-8 px-4 sm:px-8 md:px-16 lg:px-24 relative mt-48">
+    <div className="w-full bg-background py-8 px-4 sm:px-8 md:px-16 lg:px-24 relative mt-48" id="contact">
       {/* Title Section */}
       <div className="flex justify-center items-center mb-32 ">
         <div className="relative text-4xl sm:text-6xl md:text-7xl lg:text-9xl text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent font-americanCaptain">
@@ -130,15 +130,15 @@ const ContactUs = () => {
   className="w-full bg-transparent border-b-2 border-gray-600 text-[#AAAAAA] focus:outline-none focus:border-[#5C67E5] transition py-2 pr-8 appearance-none"
   name="reason"
   value={formData.reason} // Controlled value
-  onChange={handleChange}  // Handle changes
+  onChange={handleChange} // Handle changes
 >
-  <option value="" disabled hidden>
+  <option value="" disabled hidden className="bg-transparent">
     Select an option
   </option>
-  <option className="text-black" value="general">General Inquiry</option>
-  <option className="text-black" value="support">Support</option>
-  <option className="text-black" value="services">Services</option>
-  <option className="text-black" value="feedback">Feedback</option>
+  <option value="general" className="bg-gray-800 text-white hover:bg-gray-600">General Inquiry</option>
+  <option value="support" className="bg-gray-800 text-white hover:bg-gray-600">Support</option>
+  <option value="services" className="bg-gray-800 text-white hover:bg-gray-600">Services</option>
+  <option value="feedback" className="bg-gray-800 text-white hover:bg-gray-600">Feedback</option>
 </select>
 
         </div>

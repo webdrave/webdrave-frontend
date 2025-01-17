@@ -8,8 +8,8 @@ const ServiceIntro = () => {
       <h1 className="md:text-4xl lg:text-5xl lg:px-60 md:px-32 text-white uppercase font-americanCaptain font-black text-[7vw] tracking-wide leading-none text-center  ">
         Ride with <span className="text-[#7a87ff]">Web Drave</span> for top-<br/>quality <span className="text-[#7a87ff]">web development</span> services, <br/><span className="text-[#7a87ff]">tailored</span> especially for you.
       </h1>
-      <div className="w-full flex flex-col md:flex-row md:px-10 lg:px-56 md:gap-6 lg:gap-8 gap-3 px-1 justify-center items-center  " >
-        <div className="h-64 w-full py-6 px-2 md:w-full md:h-64 lg:w-full lg:h-80 lg:px-6 lg:py-8 overflow-hidden flex flex-col bg-gradient-to-br from-[#181D32] to-[#101423]  justify-between items-center shadow-[0px_0px_30px_0px_#1C3350] rounded-[15px] border border-[#B0B0B0]">
+      <div className="w-full flex flex-col md:flex-row md:px-10 md:gap-6 lg:gap-8 gap-3 px-1 justify-center items-center  " >
+        <div className="h-64 max-w-[600px] w-full  py-6 px-2 md:w-full md:h-64 lg:w-full lg:h-80 lg:px-6 lg:py-8 overflow-hidden flex flex-col bg-gradient-to-br from-[#181D32] to-[#101423]  justify-between items-center shadow-[0px_0px_30px_0px_#1C3350] rounded-[15px] border border-[#B0B0B0]">
             <h1 className="text-white text-center font-montserrat font-[500] leading-5 lg:leading-7 md:leading-5 lg:text-xl lg:px-10 text-md ">
                 Make your vision <br/>come to life through the professional <br/> services of <span className="text-[#7a87ff]">Web Drave&apos;s.</span>
             </h1>

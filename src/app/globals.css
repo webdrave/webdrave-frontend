@@ -7,7 +7,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+html{
+  scroll-behavior: smooth;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -68,4 +70,21 @@ body {
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: ''; /* Removes default Swiper arrow */
+}
+input:-webkit-autofill {
+  background: transparent !important; /* Make the background transparent */
+  color: #FFFFFF; /* Text color */
+  transition: background-color 5000s ease-in-out 0s; /* Prevent background flash */
+  -webkit-text-fill-color: #FFFFFF !important; /* Ensures consistent text color */
+}
+
+input:-webkit-autofill:focus {
+  background: transparent !important; /* Transparent background when focused */
+  -webkit-text-fill-color: #FFFFFF !important; /* Ensures consistent text color */
+  border-color: #5C67E5; /* Matches focus border color */
+}
+input:-moz-autofill {
+  background: transparent !important;
+  color: #FFFFFF;
+  -moz-text-fill-color: #FFFFFF !important;
 }

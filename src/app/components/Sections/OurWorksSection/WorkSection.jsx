@@ -2,7 +2,7 @@ import React from 'react'
 import {WorkSlider} from '../../SwiperComponent';
 const WorkSection = () => {
   return (
-    <div className='w-full p-10 max-md:p-4 bg-background '>
+    <div className='w-full p-10 max-md:p-4 bg-background ' id='portfolio'>
 <div className=" heading flex w-full  items-center justify-between">
         <h2 className="text-[7rem] max-sm:text-[5rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
           OUR <span className="text-primary">BEST</span> &<br /> WORKS
