@@ -22,7 +22,7 @@ const Video = () => {
         } rounded-lg overflow-hidden transition-all duration-500 ease-in-out cursor-pointer group origin-bottom-right`}
         onClick={toggleExpand}
       >
-        <video autoplay muted
+        <video autoPlay muted
           ref={videoRef}
           className={`w-full h-full object-cover ${isExpanded ? 'scale-100' : 'scale-100 hover:scale-110'} origin-bottom-right transition-transform duration-300`}
           controls={isExpanded}
