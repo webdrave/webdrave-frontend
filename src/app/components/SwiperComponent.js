@@ -16,31 +16,35 @@ export function WorkSlider() {
     "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_1_drszbs.jpg",
     "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_2_aesw9m.jpg",
     "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736023715/Untitled_3_bkn8nq.jpg",
-    "https://res.cloudinary.com/dpwj6nisl/image/upload/q_100/v1737117982/Untitled_4_qjzoje.png"
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/q_100/v1737117982/Untitled_4_qjzoje.png",
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/v1737898787/Screenshot_2025-01-26_184615_yhybfo.png",
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/v1737898784/Screenshot_2025-01-26_185902_cc5e8n.png",
+    "https://res.cloudinary.com/dpwj6nisl/image/upload/v1737898781/Screenshot_2025-01-26_185758_hrxis6.png"
+    // "
 
   ])
   return (
     <Swiper
       slidesPerView={1} // Default value for larger screens
       spaceBetween={10}
-      freeMode={true}
+      centeredSlides={true}
       pagination={{
         clickable: true,
       }}
       modules={[FreeMode, Pagination, Mousewheel]}
-      className="mySwiper w-full h-full p-8"
+      className="mySwiper w-full h-full p-8 z-40"
       breakpoints={{
         // When the screen size is at least 'md' (768px)
         // For smaller screens, the default is 2 slides per view
         1280: {
           slidesPerView: 2,
           spaceBetween:30,
-        },
+          centeredSlides:false        },
       }}
     >
       {works.map((work, i) => (
-  <SwiperSlide className="flex justify-center items-center rounded-lg" key={i}>
-    <div className="relative w-full h-96 max-sm:h-full">
+  <SwiperSlide className="flex justify-center items-center rounded-lg z-40" key={i}>
+    <div className="relative w-full h-96 max-sm:h-full z-40">
       <Image
         src={work}
         alt={`Work ${i}`}

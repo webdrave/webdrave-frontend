@@ -1,10 +1,12 @@
 import Image from "next/image"
 import Button from "./Button"
+import BackgroundLight from "../../LightComponent"
 
 
 const ServiceIntro = () => {
   return (
     <div className="md:min-h-fit lg:px-20 lg:py-20 lg:pb-56 lg:gap-12 md:px-10 md:py-20 md:pb-36 w-full min-h-[100vh] py-6 px-3 pb-16 overflow-hidden relative flex flex-col gap-8 justify-center items-center bg-background border-t-1 border-white">
+
       <h1 className="md:text-4xl lg:text-5xl lg:px-60 md:px-32 text-white uppercase font-americanCaptain font-black text-[7vw] tracking-wide leading-none text-center  ">
         Ride with <span className="text-[#7a87ff]">Web Drave</span> for top-<br/>quality <span className="text-[#7a87ff]">web development</span> services, <br/><span className="text-[#7a87ff]">tailored</span> especially for you.
       </h1>

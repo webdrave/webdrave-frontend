@@ -44,7 +44,7 @@ const ContactUs = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        "https://webdrave-backend.onrender.com/api/v1/contact",
+        "https://webdrave-backend-6p3s.onrender.com/api/v1/contact",
         formData
       );
       console.log(res);
@@ -185,7 +185,7 @@ const ContactUs = () => {
 
         {/* Right Section */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-[4rem] max-sm:text-[3rem] max-sm:leading-none leading-[96px] font-americanCaptain font-normal mb-8 text-right">
+          <h2 className="text-[4rem] max-sm:text-[3rem] max-sm:leading-none leading-[96px] font-americanCaptain font-normal mb-8 text-right max-sm:text-left">
             {"WE'RE"} HERE TO <span className="text-[#5C67E5]">HELP!</span>
           </h2>
           <div className="space-y-6">
@@ -206,10 +206,10 @@ const ContactUs = () => {
               </h3>
               <p>Follow us on:</p>
               <div className="flex space-x-10 text-gray-300 text-2xl mt-2">
-                <a href="#" className="hover:text-white ">
+                <a href="https://www.instagram.com/webdrave" className="hover:text-white ">
                   <FaInstagram className="text-3xl"/>
                 </a>
-                <a href="#" className="hover:text-white">
+                <a href="https://www.linkedin.com/company/webdrave-com" className="hover:text-white">
                   <FaLinkedin className="text-3xl"/>
                 </a>
                 <a href="#" className="hover:text-white">
