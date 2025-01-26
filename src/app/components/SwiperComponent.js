@@ -49,7 +49,7 @@ export function WorkSlider() {
         src={work}
         alt={`Work ${i}`}
         layout="fill" // Fills the parent container
-        objectFit="cover" // Maintains the aspect ratio
+        style={{objectFit:"cover"}}
         className="rounded-lg"
         quality={100} // Maximum quality
       />
