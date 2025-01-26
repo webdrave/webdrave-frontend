@@ -7,7 +7,7 @@ const ClientSection = () => {
     <div className='w-full p-10 max-md:p-4 bg-background relative z-40'>
 
     <div className=" heading flex w-full  items-center justify-between">
-            <h2 className="text-[7rem] max-sm:text-[5rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
+            <h2 className="text-[7rem] max-sm:text-[4rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
               WHAT <span className="text-primary">OUR</span> <br /><span className='text-primary'>CLIENTS</span> SAY
               <span className="text-primary">.</span>
             </h2>

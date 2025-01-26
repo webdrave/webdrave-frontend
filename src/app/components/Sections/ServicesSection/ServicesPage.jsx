@@ -29,7 +29,7 @@ export const ServicesPage = () => {
   return (
     <div className="min-h-screen w-full bg-background p-10 max-md:p-4 z-30" id="services">
       <div className="heading flex w-full items-center justify-between">
-        <h2 className="text-[7rem] max-sm:text-[5rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
+        <h2 className="text-[7rem] max-sm:text-[4rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
           WE <span className="text-primary">CREATE</span> &<br /> INNOVATE
           <span className="text-primary">.</span>
         </h2>

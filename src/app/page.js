@@ -13,7 +13,7 @@ export default function Home() {
  return (
   <div className="overflow-x-hidden relative">
       <BackgroundLight size="250px" blur="150px" top="0" left="-100px" />
-      <BackgroundLight size="350px" blur="150px" top="100vh" right="-100px" />
+      <BackgroundLight size="350px" blur="150px" top="100vh" right="-100px"/>
       <BackgroundLight size="250px" blur="300px" top="120vh" left="-100px" />
 
       <BackgroundLight size="250px" blur="250px" top="20vh" right="-100px" />
