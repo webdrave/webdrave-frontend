@@ -12,14 +12,14 @@ const HeroSection = () => {
     transition={{ duration: 1 }} className="flex justify-center items-center min-h-screen w-full relative px-4 sm:px-6 lg:px-8">
       {/* Main Content */}
       <div className="absolute w-full h-62 flex justify-between items-center">
-    <Image src={"/vector.png"} width={100} height={100} alt="vector" className=" max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -ml-32 -mt-32 z-30">
+    <Image src={"/vector.webp"} width={100} height={100} alt="vector" className=" max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -ml-32 -mt-32 z-30">
     
     </Image>
-    <Image src={"/vector_right.png"} width={100} height={100} alt="vector" className="max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -mr-32 z-10">
+    <Image src={"/vector_right.webp"} width={100} height={100} alt="vector" className="max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -mr-32 z-10">
     
     </Image>
       </div>
-      <div className="flex flex-col justify-center items-center w-[90%] lg:w-[80%] py-12 lg:py-0 max-sm:py-4 max-sm:-mt-14">
+      <div className="flex flex-col justify-center items-center w-[90%] lg:w-[80%] py-12 lg:py-0 max-sm:py-4 max-sm:-mt-40">
         {/* Headline */}
         <h1 className="text-5xl sm:text-7xl md:text-[8rem]  lg:text-[8rem] text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent font-americanCaptain z-40">
           We Create Beautiful <br className="" /> Things For You

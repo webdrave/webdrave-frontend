@@ -7,20 +7,15 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
   scroll-behavior: smooth;
 }
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a; /* Always black */
+  --foreground: #ededed; /* Text color */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 /* Custom font faces */
 @font-face {
   font-family: "Silk Serif";
@@ -39,7 +34,7 @@ html{
   html {
     @apply scroll-smooth;
   }
-  
+
   h1,
   h2,
   h3,
@@ -48,29 +43,35 @@ html{
   h6 {
     @apply font-primary;
   }
-  p, 
+
+  p,
   a {
     @apply font-secondary;
   }
 }
+
 @layer utilities {
   .font-primary {
     font-family: 'Montserrat', sans-serif; /* Replace 'Montserrat' with your desired font */
   }
+
   .font-secondary {
     font-family: 'Nunito Sans', sans-serif; /* Replace 'Nunito Sans' with your desired font */
   }
 }
+
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--background); /* Always black */
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: ''; /* Removes default Swiper arrow */
 }
+
 input:-webkit-autofill {
   background: transparent !important; /* Make the background transparent */
   color: #FFFFFF; /* Text color */
@@ -83,6 +84,7 @@ input:-webkit-autofill:focus {
   -webkit-text-fill-color: #FFFFFF !important; /* Ensures consistent text color */
   border-color: #5C67E5; /* Matches focus border color */
 }
+
 input:-moz-autofill {
   background: transparent !important;
   color: #FFFFFF;
