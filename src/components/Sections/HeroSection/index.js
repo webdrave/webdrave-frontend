@@ -1,6 +1,9 @@
 "use client"
+import Image from "next/image";
 import Video from "./Video";
 import { motion } from "framer-motion";
+import LightComponent from "@/app/components/LightComponent";
+import BackgroundLight from "@/app/components/LightComponent";
 
 const HeroSection = () => {
   return (
@@ -8,14 +11,22 @@ const HeroSection = () => {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 1 }} className="flex justify-center items-center min-h-screen w-full relative px-4 sm:px-6 lg:px-8">
       {/* Main Content */}
+      <div className="absolute w-full h-62 flex justify-between items-center">
+    <Image src={"/vector.png"} width={100} height={100} alt="vector" className=" max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -ml-32 -mt-32 z-30">
+    
+    </Image>
+    <Image src={"/vector_right.png"} width={100} height={100} alt="vector" className="max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -mr-32 z-10">
+    
+    </Image>
+      </div>
       <div className="flex flex-col justify-center items-center w-[90%] lg:w-[80%] py-12 lg:py-0 max-sm:py-4 max-sm:-mt-14">
         {/* Headline */}
-        <h1 className="text-5xl sm:text-7xl md:text-[8rem]  lg:text-[8rem] text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent font-americanCaptain">
+        <h1 className="text-5xl sm:text-7xl md:text-[8rem]  lg:text-[8rem] text-center uppercase from-primary to-light bg-gradient-to-br bg-clip-text text-transparent font-americanCaptain z-40">
           We Create Beautiful <br className="" /> Things For You
         </h1>
 
         {/* Subheadline */}
-        <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl font-thin text-light/60 mb-3 px-4 sm:px-0 mt-2 sm:mt-0 max-[400px]:text-xs">
+        <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl font-thin text-light/60 mb-3 px-4 sm:px-0 mt-2 sm:mt-0 max-[400px]:text-xs z-40">
           We transform your ideas into digital wonders of{" "}
           <span className="italic font-extralight text-light max-[400px]:text-xs">
             stunning quality
@@ -39,7 +50,7 @@ const HeroSection = () => {
         {/* Buttons */}
         <div className="flex flex-row justify-center items-center w-full space-x-4 lg:space-x-6 mt-6 max-sm:mt-0">
           {/* Btn - 1 */}
-          <button className="border-primary border bg-primary/20 px-4 sm:px-5 py-1 rounded-full flex justify-center items-center relative text-xs sm:text-md">
+          <a href="#services" className="border-primary border bg-primary/20 px-4 sm:px-5 py-1 rounded-full flex justify-center items-center relative text-xs sm:text-md">
             Explore
             <span className="ml-2 rounded-full bg-primary h-full w-full p-[14px] sm:p-[22px] flex justify-center items-center translate-x-3 sm:translate-x-4">
               {/* Arrow Icon */}
@@ -57,12 +68,12 @@ const HeroSection = () => {
                 />
               </svg>
             </span>
-          </button>
+          </a>
 
           {/* Btn - 2 */}
-          <button className="border-light border bg-dark px-4 sm:px-6 py-2 sm:py-4 rounded-full flex justify-center items-center relative text-xs sm:text-md">
+          <a href="#contact" className="border-light border bg-dark px-4 sm:px-6 py-2 sm:py-4 rounded-full flex justify-center items-center relative text-xs sm:text-md">
             Contact Now
-          </button>
+          </a>
         </div>
       </div>
 
@@ -85,6 +96,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Content */}
+        
         <span className="text-light text-[6px] sm:text-[10px] font-thin uppercase tracking-[4px] sm:tracking-[8px] absolute top-1/2 -translate-y-1/2 -right-4 rotate-90">
           Agency
         </span>

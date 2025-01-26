@@ -27,7 +27,7 @@ export const ServicesPage = () => {
   const widths = ["50%", "40%", "40%", "50%"];
   const directions = ["tr", "tl", "tr", "tl"];
   return (
-    <div className="min-h-screen w-full bg-background p-10 max-md:p-4">
+    <div className="min-h-screen w-full bg-background p-10 max-md:p-4 z-30" id="services">
       <div className="heading flex w-full items-center justify-between">
         <h2 className="text-[7rem] max-sm:text-[5rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
           WE <span className="text-primary">CREATE</span> &<br /> INNOVATE
