@@ -4,7 +4,7 @@ import BackgroundLight from '../../LightComponent'
 
 const ClientSection = () => {
   return (
-    <div className='w-full p-10 max-md:p-4 bg-background relative z-40'>
+    <div className='w-full p-10 max-md:p-4 bg-background relative'>
 
     <div className=" heading flex w-full  items-center justify-between">
             <h2 className="text-[7rem] max-sm:text-[4rem] max-sm:leading-none leading-[128px] font-americanCaptain font-normal">
@@ -17,7 +17,7 @@ const ClientSection = () => {
             </p>
           </div> 
           <hr className=" my-2"/>
-          <div className='w-full h-[50vh] mt-12 max-lg:h-[35vh]'>
+          <div className='w-full h-[50vh] mt-12 max-lg:h-[35vh] z-40'>
         <ClientSlider/>
           </div>
         </div>

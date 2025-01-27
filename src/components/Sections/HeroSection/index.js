@@ -12,10 +12,10 @@ const HeroSection = () => {
     transition={{ duration: 1 }} className="flex justify-center items-center min-h-screen w-full relative px-4 sm:px-6 lg:px-8">
       {/* Main Content */}
       <div className="absolute w-full h-62 flex justify-between items-center">
-    <Image src={"/vector.webp"} width={100} height={100} alt="vector" className=" max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -ml-32 -mt-32 z-30">
+    <Image src="https://res.cloudinary.com/dpwj6nisl/image/upload/v1737917527/Vector_zm6wx9.webp" width={100} height={100} alt="vector" className=" max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -ml-32 -mt-32 z-30">
     
     </Image>
-    <Image src={"/vector_right.webp"} width={100} height={100} alt="vector" className="max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -mr-32 z-10">
+    <Image src="https://res.cloudinary.com/dpwj6nisl/image/upload/v1737917526/Vector_right_yirwq9.webp" width={100} height={100} alt="vector" className="max-h-62 w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] -mr-32 z-10">
     
     </Image>
       </div>
