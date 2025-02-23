@@ -11,9 +11,8 @@ export default function TestimonialSection() {
   useEffect(() => {
     const fetchTeamMembers = async () => {
       try {
-        const response = await axios.get("https://webdrave-backend.onrender.com/api/v1/team");
+        const response = await axios.get("https://webdrave-backend-6p3s.onrender.com/api/v1/team");
         setteamMembers(response.data);
-        console.log(response.data);
       } catch (error) {
         console.error("Failed to fetch team members:", error.message);
       }
