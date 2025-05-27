@@ -2,6 +2,15 @@
 
 [
   {
+     "id":"677d9e6c8e6b152b8246f8a1",
+    "name": "Abhishek Choudhary",
+    "role": "Founder & CEO",
+    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736284809/Team%20Members/IMG_20241230_232111_-_Janmejay_v33z70.jpg",
+    "bio": "As the Founder and CEO of WebDrave, I lead our team in delivering innovative web solutions. My role involves strategic planning, overseeing project execution, and ensuring client satisfaction. With a focus on quality and creativity, I drive our mission to create impactful digital experiences.",
+    "linkedin": "https://www.linkedin.com/in/abhishek-choudhary-7a0b1a1b2",
+    "github": "https://github.com/Abhishek14104"
+  },
+  {
     "id": "677d9e6c8e6b152b8246f8a2",
     "name": "Vivek Jaiswal",
     "role": "Ui/Ux designer",
@@ -136,33 +145,7 @@
     "linkedin": "NA",
     "github": "NA"
   },
-  {
-    "id": "677d9e6e8e6b152b8246f8b1",
-    "name": "Sachin kargeti",
-    "role": "Ui Ux Desinger",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285509/Team%20Members/IMG_20220212_054937_678_-_Sachin_kargeti_fj5dib.png",
-    "bio": "UI/UX Designer at WebDrave, creating user-friendly and visually appealing digital experiences.",
-    "linkedin": "https://www.linkedin.com/in/sachin-kargeti-69aaa032a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "github": "NA"
-  },
-  {
-    "id": "677d9e6e8e6b152b8246f8b2",
-    "name": "Ganesh Kumar Mahtha",
-    "role": "UI/UX LEAD",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285538/Team%20Members/Instagram_post_-_10_-_Ganesh_kumar_xoxmay.png",
-    "bio": "As the UI/UX Lead at WebDrave, I specialize in designing intuitive user interfaces and seamless experiences, ensuring our digital products resonate with users and stand out in the industry.",
-    "linkedin": "www.linkedin.com/in/ganesh-mahtha-0000572a4",
-    "github": "N/A"
-  },
-  {
-    "id": "677d9e6e8e6b152b8246f8b3",
-    "name": "Prerna Chetwani",
-    "role": "PR and Marketing",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285565/Team%20Members/IMG_1151_-_Prerna_Chetwani_qqk6w9.jpg",
-    "bio": "Focused on crafting brand visibility and building strong connections.",
-    "linkedin": "https://www.linkedin.com/in/prerna-chetwani-04ch10",
-    "github": "https://github.com/prernachetwani"
-  },
+  
   {
     "id": "677d9e6e8e6b152b8246f8b4",
     "name": "Rushikesh Ashok Chandavale",
@@ -180,15 +163,6 @@
     "bio": "A dedicated backend developer with a strong foundation in Computer Science. Experienced in building efficient and scalable web applications, with a focus on user-friendly solutions. Passionate about solving problems and collaborating on innovative projects to create impactful platforms.",
     "linkedin": "linkedin.com/in/abnjain",
     "github": "github.com/abnjain"
-  },
-  {
-    "id": "677d9e6e8e6b152b8246f8b6",
-    "name": "Bigyan acharya",
-    "role": "Frontend lead",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285667/Team%20Members/IMG_20241210_210837_445_-_Bigyan_Acharya_ratfvt.jpg",
-    "bio": "..will update later in the website",
-    "linkedin": "https://www.linkedin.com/in/bigyan-acharya",
-    "github": "https://github.com/bigyan224"
   },
   {
     "id": "677d9e6f8e6b152b8246f8b7",
