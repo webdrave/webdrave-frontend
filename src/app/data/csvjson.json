@@ -5,10 +5,10 @@
      "id":"677d9e6c8e6b152b8246f8a1",
     "name": "Abhishek Choudhary",
     "role": "Founder & CEO",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736284809/Team%20Members/IMG_20241230_232111_-_Janmejay_v33z70.jpg",
+    "imgUrl": "https://res.cloudinary.com/dj7ey49h9/image/upload/v1748584048/k9qtaei3tu6jtqj0fedk.jpg",
     "bio": "As the Founder and CEO of WebDrave, I lead our team in delivering innovative web solutions. My role involves strategic planning, overseeing project execution, and ensuring client satisfaction. With a focus on quality and creativity, I drive our mission to create impactful digital experiences.",
-    "linkedin": "https://www.linkedin.com/in/abhishek-choudhary-7a0b1a1b2",
-    "github": "https://github.com/Abhishek14104"
+    "linkedin": "https://www.linkedin.com/in/abhishek-choudhary-bab846132/",
+    "github": "https://github.com/AbhishekChoudharyy"
   },
   {
     "id": "677d9e6c8e6b152b8246f8a2",
@@ -38,15 +38,6 @@
     "github": "https://github.com/aditya-bansal-7"
   },
   {
-    "id": "677d9e6d8e6b152b8246f8a5",
-    "name": "Aniket Pal",
-    "role": "UI UX DESIGNER",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736284981/Team%20Members/IMG_20230824_193409_-_Aniket_Pal_qbzoyf.jpg",
-    "bio": "I'm an UI UX designer of this team, & my role is to innovate catchy web designs.",
-    "linkedin": "https://www.linkedin.com/in/aniket-pal-349437289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "github": "https://github.com/ani141103"
-  },
-  {
     "id": "677d9e6d8e6b152b8246f8a6",
     "name": "Khushwant Singh",
     "role": "Tech head",
@@ -54,24 +45,6 @@
     "bio": "As the Tech Head at WebDrave, I am responsible for overseeing the workflow within tech teams, ensuring efficient communication, and managing project timelines and deliverables. My role involves aligning technical strategies with organizational goals, fostering collaboration, and driving innovation to achieve seamless execution of projects.",
     "linkedin": "https://www.linkedin.com/in/khushwant-singh-68249a335",
     "github": "https://github.com/Khushwant-Singh1"
-  },
-  {
-    "id": "677d9e6d8e6b152b8246f8a7",
-    "name": "Abhishek Gupta",
-    "role": "Backend Engineer",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285087/Team%20Members/20241229_143613_-_Abhishek_Gupta_zj5a0p.jpg",
-    "bio": "Backend Engineer at WebDrave, running on chai, code, and last-minute deadlines. Keeping servers alive, just like my semester grades—barely but surely!",
-    "linkedin": "www.linkedin.com/in/Abhishek14104",
-    "github": "https://github.com/Abhishek14104"
-  },
-  {
-    "id": "677d9e6d8e6b152b8246f8a8",
-    "name": "Shourya Saxena",
-    "role": "Frontend Developer",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285191/Team%20Members/Avatar_-_Shourya_Saxena_iqjmg9.png",
-    "bio": "I am a front-end developer at Webdrave, skilled in crafting responsive and user-friendly web interfaces. Specializing in modern frameworks and tools like MERN Stack and NextJS, also ensures seamless cross-browser compatibility and designs intuitive user experiences. My responsibilities include implementing dynamic interfaces, optimizing performance, and delivering visually appealing web applications.",
-    "linkedin": "https://www.linkedin.com/in/saxena-shourya/",
-    "github": "https://github.com/SaxenaShourya"
   },
   {
     "id": "677d9e6d8e6b152b8246f8a9",
@@ -127,15 +100,7 @@
     "linkedin": "-",
     "github": "-"
   },
-  {
-    "id": "677d9e6e8e6b152b8246f8af",
-    "name": "Dipak Chauhan",
-    "role": "UI/UX Team",
-    "imgUrl": "https://res.cloudinary.com/dpwj6nisl/image/upload/v1736285451/Team%20Members/PXL_20240428_103330447_3_-_Dipak_Chauhan_qbgbsk.jpg",
-    "bio": "UI/UX designer and web developer with a keen eye for creating intuitive and visually appealing digital experiences. Skilled in designing user-centric interfaces and building responsive, efficient websites to bring concepts to life. Dedicated to enhancing user satisfaction through thoughtful design and seamless functionality.",
-    "linkedin": "https://www.linkedin.com/in/dipak-chauhan00",
-    "github": "https://github.com/Dipak-Chauhan"
-  },
+
   {
     "id": "677d9e6e8e6b152b8246f8b0",
     "name": "Rishu bisht",
