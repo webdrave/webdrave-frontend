@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { Playwrite_CA } from 'next/font/google';
 import NavBar from '@/components/NavBar';
 import { GithubIcon } from 'lucide-react';
+import Link from 'next/link'
 
 export default function TestimonialSection() {
   const [teamMembers, setteamMembers] = useState([])
@@ -43,8 +44,9 @@ export default function TestimonialSection() {
   <h4 className='text-md font-bold'>{data.name}</h4>
   <span className='text-sm'>{data.role}</span>
   <p className='text-sm mt-4'>{data.bio}</p>
-  <GithubIcon className='mt-4' data={data.github} />
-
+  <Link href={data.github}>
+    <GithubIcon className='mt-4' />
+  </Link>
 </div>
 
 
