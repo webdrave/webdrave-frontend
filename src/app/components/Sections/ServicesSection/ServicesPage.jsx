@@ -9,20 +9,20 @@ export const ServicesPage = () => {
         "Experting the maintenance, building and programming of a website is indeed a great task. webDrave delivers you with services of web development along with convenience.",
     },
     {
-      title: "SEO",
-      description:
-        "Marketing is a company’s prime concern. webDrave favours you with the complete optimization of search engine with our impactful approaches.",
-    },
-    {
       title: "Web hosting",
       description:
         "Security, scalability, performance optimization, technical support and so on... all at only a single platform? webDrave allocating web hosting services according to your comfort.",
     },
     {
+      title: "Social Media",
+      description:
+        "In today's Digital landscape, a strong social media presence is essential for brand success. At WebDrave, we offer comprehensive Soical media marketing services designed to amplify your brand's voice and connect with your target audience across various platforms",
+    },
+    {
       title: "Web design",
       description:
         "An Exceptional Web Design can transform the way your brand speaks to your audience. So webDrave is here to ease your task and favour you with an exceptional web design.",
-    },
+    }
   ];
   const widths = ["50%", "40%", "40%", "50%"];
   const directions = ["tr", "tl", "tr", "tl"];
